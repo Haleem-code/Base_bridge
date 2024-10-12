@@ -205,7 +205,7 @@ export default function MainApp() {
             <CardContent className="pt-6">
               <Wallet className="h-8 w-8 mb-2" />
               <h3 className="text-lg font-semibold mb-1">Fiat Account</h3>
-              <p className="text-2xl font-bold">{fiatBalance} NGN</p>
+              <p className="text-xl font-bold">{fiatBalance} NGN</p>
             </CardContent>
           </Card>
         </div>
