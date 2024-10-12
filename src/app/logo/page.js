@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 
+
 const LogoPage = () => {
   const router = useRouter();
 
@@ -17,14 +18,14 @@ const LogoPage = () => {
 
   return (
     <div
-      className="flex justify-center items-center h-screen"
-      style={{ backgroundColor: "#ADD8E6" }}
+      className="flex justify-center items-center h-screen bg-blue-600"
+      
     >
       <Image 
         src="/images/logo.svg"
         alt="Logo"
-        width={75} 
-        height={75}
+        width={35} 
+        height={35}
       />
       <span className="text-white">BaseBridge</span>
     </div>
